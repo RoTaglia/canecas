@@ -106,19 +106,10 @@ cd canecas
 <h3>Estrutura do Projeto</h3>
 
 <pre>
-/gerador-pdf-canecas
-│
-├── /images
-│   └── caneca.png          # Ícone da aplicação
-│
-├── /templates
-│   └── index.html          # Template HTML (se aplicável)
-│
-├── /static
-│   └── styles.css          # Estilos CSS (se aplicável)
-│
-├── app.py                  # Código principal
-├── requirements.txt        # Lista de dependências
-├── LICENSE                 # Arquivo de licença
+/canecas
+├── .gitignore              # Arquivo de exclusão de arquivos
+├── caneca.ico              # Ícone do programa
+├── caneca.png              # Imagem do programa
+├── canecas.py              # Código principal
 └── README.md               # Este arquivo
 </pre>
