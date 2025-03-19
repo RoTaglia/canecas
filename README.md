@@ -97,7 +97,7 @@ cd canecas
 <p>Caso tenha dúvidas ou sugestões, entre em contato:</p>
 
 <ul>
-  <li>📧 <strong>Email</strong>: <a href="mailto:seu-email@email.com">falecomigo@gmail.com</a></li>
+  <li>📧 <strong>Email</strong>: <a href="mailto:falecomigo@gmail.com">falecomigo@gmail.com</a></li>
   <li>🔗 <strong>GitHub</strong>: <a href="https://rotaglia.github.io/">RoTaglia.github.io</a></li>
 </ul>
 
@@ -108,8 +108,8 @@ cd canecas
 <pre>
 /canecas
 ├── .gitignore              # Arquivo de exclusão de arquivos
+├── README.md               # Este arquivo
 ├── caneca.ico              # Ícone do programa
 ├── caneca.png              # Imagem do programa
-├── canecas.py              # Código principal
-└── README.md               # Este arquivo
+└── canecas.py              # Código principal
 </pre>
