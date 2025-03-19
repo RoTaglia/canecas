@@ -29,8 +29,8 @@
 
 <p>Clone o repositório para o seu computador:</p>
 
-<pre><code>git clone https://github.com/seu-usuario/gerador-pdf-canecas.git
-cd gerador-pdf-canecas
+<pre><code>git clone https://github.com/rotaglia/canecas.git
+cd canecas
 </code></pre>
 
 <h3>🔹 Instalando Dependências</h3>
@@ -51,7 +51,7 @@ cd gerador-pdf-canecas
 
 <ol>
   <li>Execute o programa com o seguinte comando:</li>
-  <pre><code>python app.py</code></pre>
+  <pre><code>python canecas.py</code></pre>
   <li>Clique no botão <strong>"Adicionar Imagens"</strong> para selecionar os arquivos desejados.</li>
   <li>Visualize as miniaturas das imagens selecionadas.</li>
   <li>Remova imagens se necessário, clicando no botão <strong>"Excluir"</strong> abaixo de cada miniatura.</li>
@@ -71,7 +71,7 @@ cd gerador-pdf-canecas
 
 <p>Caso deseje gerar um arquivo executável, utilize o <strong>PyInstaller</strong>:</p>
 
-<pre><code>pyinstaller --onefile --windowed --icon=caneca.ico app.py
+<pre><code>pyinstaller --onefile --windowed --icon=caneca.ico --add-data "caneca.png;." --add-data "caneca.ico;." canecas.py
 </code></pre>
 
 <p>Isso criará um executável na pasta <code>dist/</code>.</p>
